@@ -52,7 +52,7 @@
         });
 
         //xhr.open("GET", "http://localhost:8889/api.worldbank.org/countries/all/indicators/NY.GDP.MKTP.CD?date=2002:2015");
-        xhr.open("GET", "http://api.worldbank.org/countries/all/indicators/NY.GDP.MKTP.CD?date=2002:2015");
+        xhr.open("GET", "//api.worldbank.org/countries/all/indicators/NY.GDP.MKTP.CD?date=2002:2015");
         xhr.setRequestHeader("cache-control", "no-cache");
 
         xhr.send(data);
